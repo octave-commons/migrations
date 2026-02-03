@@ -66,7 +66,7 @@ function parseEnv(env: NodeJS.ProcessEnv, argv: ReadonlyArray<string>): EnvConfi
         MONGO_URI = 'mongodb://localhost:27017',
         CHROMA_URL = 'http://localhost:8000',
         CHROMA_COLLECTION_PREFIX = 'promethean_',
-        EMBEDDING_MODEL = 'deterministic:v1',
+        EMBEDDING_MODEL = 'qwen3-embedding:8b',
         EMBEDDING_DIM = '1536',
     } = env;
 
